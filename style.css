@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15rem;
+}
+
+button {
+    width: 15rem;
+    height: 4rem;
+    border-radius: 25px;
+    background-color: aqua;
+    font-size: large;
+    font-weight: 700;
+    cursor:crosshair;
+    border-color: aquamarine;
+}
+
+button:active {
+    box-shadow: 5px;
+    color: gray;
+    text-shadow: 5px;
+}
+
+textarea {
+    margin: 5rem;
+    width: 50rem;
+    font-size: xx-large;
+    border-radius: 10px;
+    border: solid 3px;
+}
